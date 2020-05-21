@@ -1,89 +1,92 @@
 body {
-    background-image: url('default.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 97vh;
-    text-shadow: 2px 2px 1px black;
-    color: white;
+  background-image: url('default.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 97vh;
+  text-shadow: 2px 2px 1px black;
+  color: white;
 }
 
 #weatherContainer {
-    background-color: rgba(0,0,0,0.25);
-    box-shadow: 1px 1px 5px black;
-    padding: 50px;
-    border-radius: 10px;
-    position: absolute;
-    visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 50px;
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
 }
 
-#weatherContainer h1{
-    margin: 5px;
-    font-size: 42px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#weatherContainer h1 {
+  margin: 5px;
+  font-size: 42px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #searchContainer {
-    padding: 15px;
-    position: absolute;
-    top: 0;
-    right: 0;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #searchContiner input {
-    width: 200px;
+  width: 200px;
 }
 
 #searchContainer button {
-    background-color: cadetblue;
-    width: 75px;
+  background-color: cadetblue;
+  width: 75px;
 }
 
 .searchConrol {
-    box-shadow: 2px 2px 5px black;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 #weatherMain {
-    display: block;
-    margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 #weatherMain div {
-    display: inline-block;
+  display: inline-block;
 }
 
 #weatherDescriptionHeader {
-    font: 28px;
-    vertical-align: 50%;
+  font: 28px;
+  vertical-align: 50%;
 }
 
 #tempurature {
-    font-size: 38px;
-    vertical-align: 25%;
+  font-size: 38px;
+  vertical-align: 25%;
 }
 
 .bottomDetails {
-    display: block;
-    font-size: 24px;
-    text-align: right;
+  display: block;
+  font-size: 24px;
+  text-align: right;
 }
 
 hr {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .city {
-    background-color: rgba(0,0,0,0.25);
-    box-shadow: 1px 1px 5px black;
-    padding: 30px;
-    border-radius: 10px;
-    
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 30px;
+  border-radius: 10px;
 }
 
-
-
-
-
+.col-md-2 {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+}
